@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Somo lo mejore del condado corta</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fandom Oficial: Somo lo mejore del condado corta</h1>
+        <img src="imagenes/img1.png" alt="Logotipo oficial del grupo" width="50%">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="index.html#novedades">Novedades</a></li>
+            <li><a href="registro.html">Unirse</a></li>
+        </ul>
+    </nav>  
+
+    <main>
+        <section class="contenedor-registro">
+            <h2>Inscripción al Fan Club Cine Pro</h2>
+            
+            <form action=# method="post" class="registro-form">
+                
+                <div class="campo">
+                    <label for="username">Nombre de Usuario:</label>
+                    <input type="text" id="username" name="username" placeholder="Tuturrito35">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="EliseoN@gmail.com">
+                </div>
+
+                <div class="campo">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+
+                <div class="campo">
+                    <label for="dob">Fecha de Nacimiento:</label>
+                    <input type="date" id="dob" name="dob">
+                </div>
+
+                <div class="campo">
+                    <label for="personaje">Nivel de Sky:</label>
+                    <select id="personaje" name="personaje">
+                        <option value="polilla">Polilla</option>
+                        <option value="veterano">Veterano</option>
+                        <option value="ikemen">Ikemen</option>
+                    </select>
+                </div>
+
+                <div class="campo-radio">
+                    <label>¿Pagas por esto?</label>
+                    <div>
+                        <input type="radio" id="gratis" name="membresia" value="gratis">
+                        <label for="gratis">No tengo wtf</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="vip" name="membresia" value="vip">
+                        <label for="vip">Si pago vro tengo plata</label>
+                    </div>
+                </div>
+
+                <div class="campo-checkbox">
+                    <input type="checkbox" id="terminos" name="terminos" checked>
+                    <label for="terminos">Acepto los términos y condiciones</label>
+                </div>
+
+                <button type="submit">Registrarse</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>copyright 2026 Comunidad Fandom. Todos los derechos reservados.</p>
+        <p>Seguinos y enterate de más en 
+            <a href="https://es.wikipedia.org/wiki/Fandom">Wikipedia Fandom</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
