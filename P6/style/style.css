@@ -1,0 +1,40 @@
+body {
+    background-color: #9bec38; 
+    margin: 0;
+    padding: 50px; 
+    font-family: Arial, sans-serif;
+}
+
+.contenedor-gris {
+    background-color: #837a7a; 
+    width: 900px;
+    padding: 60px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.tarjeta {
+    background-color: #FFFFFF;
+    width: 300px;
+    margin: 20px; 
+    text-align: center; 
+}
+
+.imagen-flor {
+    width: 120px; 
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
